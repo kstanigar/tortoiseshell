@@ -5,14 +5,23 @@ html {
 }
 
 body {
+  background-color: white;
   font-family: "Helvetica", sans-serif;
   font-size: 1rem;
   line-height: 1.4;
 }
 
 h1,
-h3 {
+h3,
+h4 {
   font-weight: bold;
+}
+
+h4 {
+  text-transform: capitalize;
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  max-width: 10rem;
 }
 
 li {
@@ -36,7 +45,6 @@ li {
   height: 30rem;
   margin-top: 0rem;
   justify-content: center;
-  border: 1px solid red;
 }
 
 .header-container {
@@ -55,7 +63,6 @@ li {
   align-items: center;
   margin-left: 2rem;
   padding: 1rem;
-
 }
 
 .logo-container img {
@@ -70,7 +77,6 @@ li {
 .motto {
   max-width: 1032px;
   margin: 10rem auto;
-  border: 1px solid green;
 }
 
 .motto h1 {
@@ -79,7 +85,51 @@ li {
   text-transform: uppercase;
   line-height: 1.2;
   font-size: 2rem;
+  max-width: 516px;
+  margin-left: 40%;
   background-color: white;
   padding: 1.5rem 5rem;
+}
+
+/*  Services Section  */
+
+.items-container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+  border: 1px solid green;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 0 3rem;
+  max-width: 5rem;
+  border: 1px solid orange;
+}
+
+.items img {
+  max-width: 5rem;
+}
+
+.paper {
+  max-height: 8rem;
+  max-width: 3.5rem;
+}
+
+/*  Information Section  */
+
+.info-container {
+  display: flex;
   border: 1px solid purple;
+}
+
+.information {
+  max-width: 35%;
+  margin-left: 5rem;
+  border: 1px solid red;
 }
