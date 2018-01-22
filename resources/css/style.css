@@ -104,7 +104,6 @@ li {
   display: flex;
   justify-content: center;
   margin: 3rem auto;
-  border: 1px solid blue;
 }
 
 .items {
@@ -116,7 +115,6 @@ li {
   align-items: center;
   text-align: center;
   max-width: 5rem;
-  border: 1px solid red;
 }
 
 .items img {
@@ -158,18 +156,14 @@ li {
   justify-content: center;
   align-items: center;
   padding: 4rem;
-  border: 1px solid green;
 }
 
 .footer img {
   max-height: 1.5rem;
-  border: 1px solid purple;
 }
 
 .copyright-container span {
   padding-left: 1rem;
-  border: 1px solid red;
-
 }
 
 
@@ -268,7 +262,6 @@ li {
     align-items: center;
     margin-top: 2.08rem;
     margin-bottom: 3.37rem;
-    border: 1px solid blue;
   }
 
   .items {
@@ -284,14 +277,12 @@ li {
     max-width: 100%;
     flex-wrap: wrap;
     margin: 0 auto;
-    border: 1px solid coral;
   }
 
   .information {
     max-width: 100%;
     padding: 0 0 4rem 0;
     margin: 0 auto;
-    border: 1px solid purple;
   }
 
   h4 {
@@ -299,7 +290,6 @@ li {
    text-align: center;
    padding: 0.5rem 0;
    margin: 0 auto;
-   border: 1px solid purple;
  }
 
  p {
