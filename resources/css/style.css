@@ -104,7 +104,7 @@ li {
   display: flex;
   justify-content: center;
   margin: 3rem auto;
-  /*border: 1px solid blue;*/
+  border: 1px solid blue;
 }
 
 .items {
@@ -116,7 +116,7 @@ li {
   align-items: center;
   text-align: center;
   max-width: 5rem;
-  /*border: 1px solid red;*/
+  border: 1px solid red;
 }
 
 .items img {
@@ -168,4 +168,121 @@ li {
 .copyright-container span {
   padding-left: 1rem;
 
+}
+
+
+/*  Media Query Max-width: 1000px  */
+@media only screen and (max-width: 1025px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .header-container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .background {
+    max-height: 22rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .items-container {
+    max-width: 800px;
+  }
+
+  .items {
+    padding: 0 3rem;
+    /*margin: 0 3rem;*/
+  }
+
+  .motto {
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+
+  .motto h1 {
+    font-size: 1.33rem;
+    padding: 1.5rem 4rem;
+    line-height: 1.2;
+    text-align: center;
+    max-width: 500px;
+    margin-left: 43%;
+  }
+}
+
+
+/*  Media Query  Max-width: 800px  */
+
+@media only screen and (max-width: 800px) {
+  .background {
+    max-height: 17rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20%;
+  }
+
+  .motto {
+    margin-top: 9rem;
+    margin-right: auto;
+    max-width: 100%;
+  }
+
+  .motto h1 {
+    font-size: 1rem;
+    padding: .75rem 0;
+    line-height: 1.2;
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  #services,
+  #products,
+  #contact {
+    display: none;
+  }
+
+  .menu {
+    display: inline
+  }
+
+}
+
+/*  Media Query Max-width: 655px  */
+
+@media only screen and (max-width: 655px) {
+  .items-container {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.08rem;
+    margin-bottom: 3.37rem;
+    border: 1px solid blue;
+  }
+
+  .items {
+    font-size: 0.77rem;
+    /*justify-content: space-between;*/
+  }
+
+  .items img {
+    padding: 1.26rem;
+  }
+
+  .info-container {
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    border: 1px solid coral;
+  }
+
+  .information {
+    max-width: 100%;
+    padding: auto;
+    border: 1px solid purple;
+
+  }
 }
