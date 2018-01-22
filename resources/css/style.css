@@ -158,20 +158,23 @@ li {
   justify-content: center;
   align-items: center;
   padding: 4rem;
+  border: 1px solid green;
 }
 
 .footer img {
   max-height: 1.5rem;
-  /*  border: 1px solid purple;  */
+  border: 1px solid purple;
 }
 
 .copyright-container span {
   padding-left: 1rem;
+  border: 1px solid red;
 
 }
 
 
 /*  Media Query Max-width: 1000px  */
+
 @media only screen and (max-width: 1025px) {
   .container {
     max-width: 100%;
@@ -246,7 +249,8 @@ li {
   }
 
   .menu {
-    display: inline
+    display: inline;
+    padding-right: 2rem;
   }
 
 }
@@ -281,8 +285,28 @@ li {
 
   .information {
     max-width: 100%;
-    padding: auto;
+    padding: 0 0 4rem 0;
+    margin: 0 auto;
     border: 1px solid purple;
-
   }
+
+  h4 {
+   max-width: 100%;
+   text-align: center;
+   padding: 0.5rem 0;
+   margin: 0 auto;
+   border: 1px solid purple;
+ }
+
+ p {
+   padding: 0 0.5rem;
+ }
+
+ .company-name {
+   display: none;
+ }
+
+ .footer {
+   justify-content: center;
+ }
 }
